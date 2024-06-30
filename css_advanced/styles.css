@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-Regular.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-ExtraLight.otf");
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("./fonts/SourceSansPro-Bold.otf");
+    font-weight: bold;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    top: 35px;
+    left: 0px;
+    background-color: transparent;
+    width: 100%;
+    height: 29.46px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 171.59px;
+}
+
+header ul {
+    display: flex;
+    column-gap: 10px;
+    list-style: none;
+    color: white;
+}
+
+header img {
+    object-fit: contain;
+}
+
+header li {
+    font-size: 12px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+header li a{
+    font-family: "Source Sans Pro";
+    text-decoration: none;
+    color: white;
+}
+
+.get_schooled_section {
+    background-image: url("./Images/Object.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 65px;
+}
+
+.schooled {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.schooled h1 {
+    font-family: "Source Sans Pro";
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 150.84px;
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+    margin: 0;
+}
+
+.schooled span {
+    font-family: "Source Sans Pro";
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.schooled button {
+    margin-top: 20px;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    text-align: center;
+    width: 162px;
+    height: 44px;
+    color: white;
+    background: #C271FF;
+    border-radius: 208px;
+    border: none;
+    font-weight: normal;
+}
+
+.learn h2 {
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+
+.learn h2 span:first-child {
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-weight: bold; 
+    color: #C271FF;
+}
+
+.learn h2 span:last-child {
+    font-family: "Source Sans Pro";
+    color: white;
+    font-weight: lighter;
+    font-size: 32px;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 0.19fr));
+    justify-content: center;
+}
+
+.images h3, p {
+    color: white;
+    text-align: center;
+}
+
+.images div {
+    text-align: center;
+}
