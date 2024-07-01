@@ -190,5 +190,78 @@ header li a{
     margin-left: 20px;
 }
 
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
 
+.content h2 {
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    color: #071629;
+    font-weight: normal;
+}
+
+.content h2 span {
+    font-family: "Source Sans Pro";
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    text-align: left;
+    padding: 35px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-family: "Source Sans Pro";
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.card p {
+    font-family: "Source Sans Pro";
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 5px;
+    font-size: 14px;
+    color: #C271FF;
+    font-family: "Source Sans Pro";
+    margin-bottom: 0;
+}
+
+.card-footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.rating {
+    display: flex;
+    color: #C271FF;
+    padding-left: 10px;
+}
 
