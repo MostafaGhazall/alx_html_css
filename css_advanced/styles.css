@@ -113,6 +113,10 @@ header li a{
     font-weight: normal;
 }
 
+.schooled button:hover {
+    background-color: #8a50b3;
+}
+
 .learn h2 {
     font-family: "Source Sans Pro";
     font-size: 32px;
@@ -236,7 +240,6 @@ header li a{
 
 .card p {
     font-family: "Source Sans Pro";
-    margin: 0 0 20px;
     font-size: 14px;
     color: #666;
     text-align: left;
@@ -246,7 +249,7 @@ header li a{
 .card-footer {
     display: flex;
     align-items: center;
-    padding: 0 10px 5px;
+    padding: 0 5px;
     font-size: 14px;
     color: #C271FF;
     font-family: "Source Sans Pro";
@@ -265,3 +268,145 @@ header li a{
     padding-left: 10px;
 }
 
+.rating-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-time p {
+    color: #C271FF;
+}
+
+/* >>>>> Membership <<<<<< */
+
+.membership {
+    background: #071629;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 502px;
+    text-align: center;
+}
+
+.membership h2 {
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 58px;
+    line-height: 40.22px;
+}
+
+.membership h2 span {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    font-size: 32px;
+    color: #C271FF;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.membership-card {
+    width: 257px;
+}
+
+.membership h3 {
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.membership button {
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    background-color: #a064cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 85px;
+}
+
+.membership button:hover {
+    background-color: #8a50b3;
+}
+
+/* >>>>> FAQ <<<<<< */
+
+.faq-section {
+
+    text-align: center;
+    padding: 67px 130px;
+}
+
+.faq-section h2 {
+    font-family: "Source Sans Pro";
+    font-weight: lighter;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #071629;
+    text-align: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.faq-item {
+    font-family: "Source Sans Pro";
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px;
+    width: 45%;
+    min-width: 280px;
+    text-align: left;
+}
+
+/* >>> Footer <<< */
+
+.footer-section {
+    background: #071629;
+    padding: 20px;
+    text-align: center;
+    font-family: "Source Sans Pro";
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 120px;
+}
+
+
+.social-icons i {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons i:hover {
+    color: #BBBBBB;
+}
+
+.footer p {
+    color: #666;
+    font-family: "Source Sans Pro";
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 15.08px;
+}
